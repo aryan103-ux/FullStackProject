@@ -1,0 +1,37 @@
+.admin-dashboard {
+  min-height: 100vh;
+}
+
+.admin-actions {
+  margin-bottom: 32px;
+}
+
+.admin-restaurant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-restaurant-card .restaurant-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.admin-restaurant-card .restaurant-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.restaurant-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.restaurant-actions .btn {
+  flex: 1;
+}
+

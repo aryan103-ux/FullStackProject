@@ -1,0 +1,133 @@
+.dashboard {
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  background-color: var(--bg-secondary);
+  padding: 20px 0;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 32px;
+}
+
+.dashboard-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  color: var(--text-primary);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.welcome-text {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.restaurants-section,
+.orders-section {
+  margin-bottom: 48px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px;
+  color: var(--text-secondary);
+  font-size: 18px;
+}
+
+.loading {
+  text-align: center;
+  padding: 48px;
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-card {
+  padding: 20px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.order-header h3 {
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.status-confirmed {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.status-delivered {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.status-cancelled {
+  background-color: var(--danger-color);
+  color: #fff;
+}
+
+.order-items {
+  margin-bottom: 12px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.order-total {
+  font-size: 18px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 2px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.order-date {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
